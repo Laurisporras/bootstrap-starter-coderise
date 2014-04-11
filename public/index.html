@@ -1,94 +1,150 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/themes/default.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/lib/modernizr.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<!--[if lt IE 7]>
+    <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+    <![endif]-->
+    <!--[if IE 7]>
+        <html class="no-js lt-ie9 lt-ie8">
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input id="email" type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input id="password" type="password" placeholder="Password" class="form-control">
-            </div>
-            <button id="signin" type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+        <!--[if IE 8]>
+            <html class="no-js lt-ie9">
+            <![endif]-->
+            <!--[if gt IE 8]>
+                <!-->
+                <html class="no-js">
+                <!--<![endif]-->
+                
+                <head>
+                    <meta charset="utf-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <title> Wisdom Workplace app</title>
+                    <meta name="description" content="">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link rel="stylesheet" href="css/bootstrap.css">
+                    <style>
+                        body {
+                            padding-top: 50px;
+                            padding-bottom: 20px;
+                        }
+                    </style>
+                    <link rel="stylesheet" href="css/themes/cosmo.css">
+                    <link   rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+                    <link rel="stylesheet" href="css/main.css">
+                    <script src="js/lib/modernizr.js"></script>
+                </head>
+                
+                <body>
+                    <!--[if lt IE 7]>
+                        <p class="browsehappy">You are using an
+                            <strong>outdated</strong>browser. Please
+                            <a href="http://browsehappy.com/">upgrade your browser</a>to improve your experience.</p>
+                    <![endif]-->
+                    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Wisdom Workplace</a>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <form class="navbar-form navbar-right" role="form">
+                                    <div class="form-group">
+                                        <input id="email" type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="password" type="password" placeholder="Password" class="form-control">
+                                    </div>
+                                    <button id="signin" type="submit" class="btn btn-success">Sign in</button>
+                                </form>
+                            </div>
+                            <!--/.navbar-collapse -->
+                        </div>
+                    </div>
+                    <!-- Main jumbotron for a primary marketing message or call to action
+                    -->
+                    <div class="jumbotron" id="seccionbg">
+                        <div class="container">
+                            <div class="alert alert-success ">Well done! Welcome</div>
+                            <div class="alert alert-danger ">Oh snap! Error</div>
+                           
+                            <div class= "well">
+                             <h1>Hi User!</h1>
+                            <p>This is a template for a simple marketing or informational website. It
+                                includes a large callout called a jumbotron and three supporting pieces
+                                of content. Use it as a starting point to create something more unique.</p>
+                            <p>
+                            </div>
+                                <a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!--<div class="row">
+                            <div class="col-md-4">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <input id= "nombreContacto" type="text" class="form-control" placeholder="Ingrese su nombre">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Correo electronico</label>
+                                        <input id="emailContacto" type="email" class="form-control" placeholder="Ingrese su email">
+                                    </div>
+                                    <button id= "IngresarContacto" class="btn btn-primary btn-lg">Ingresar contacto</button>
+                                </form>
+                            </div>
+                            <div class="col-md-8">
+                                <ul id= "listaContactos">
+                                    <li> Adrian Estrada - edsadr@gmail.com</li>
+                                    <li> Julian Duque - julianduquej@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>-->
+                           
+                        <!-- Example row of columns -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h2>Heading</h2>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                                    sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
+                                    odio dui.</p>
+                                <p>
+                                
+                                    <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                                </p>
+                                <div id="datepicker"></div>
+                            </div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Coderise 2014</p>
-      </footer>
-    </div> <!-- /container -->        
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
-        <script>window.jQuery || document.write('<script src="js/lib/jquery-1.11.0.js"><\/script>')</script>
-        <script src="js/lib/bootstrap.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+                            <div class="col-md-9">
+                                <h2>Heading</h2>
+                                <iframe width="100%" height="315" src="//www.youtube.com/embed/impZ7krcPzI" frameborder="0" allowfullscreen></iframe>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                                    sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
+                                    odio dui.</p>
+                                <p>
+                                    <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                                </p>
+                            </div>
+                          
+                        </div>
+                        <hr>
+                        <footer>
+                            <p>&copy; Coderise 2014</p>
+                        </footer>
+                    </div>
+                    <!-- /container -->
+                    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+                    <script>
+                        window.jQuery || document.write('<script src="js/lib/jquery-1.11.0.js"><\/script>')
+                    </script>
+                    <script src="js/lib/bootstrap.js"></script>
+                    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"> </script>
+                    <script src="js/main.js"></script>
+                </body>
+                
+                </html>
