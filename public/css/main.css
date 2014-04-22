@@ -9,10 +9,43 @@
      background: url(http://img.wallpaperstock.net:81/e=mc2-wallpapers_35141_1600x1200.jpg);  
        
        }
-   
-   
-   
+       
 
+.container-fluid {
+padding-right: 0px;
+padding-left: 0px;
+background-color: #f9f9f9;
+}
+       
+.lateral{
+    background-color: #3498DB;
+    color: white;
+    height: 685px;
+}
+ .icon {
+     max-width:100px;
+     margin-top: 20px;
+ }
+   
+.ico-ask{
+    max-width: 35px;
+    margin-left: 30px;
+}
+.pregunta{
+    background-color:#1ABC9C;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#f9f9f9;
+}
+.pregunta h3{
+    margin-left: 30px;
+}
+
+.side-menu{
+    margin-left:15px;
+}
 
 
 
