@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    
   </head>
   <body>
     <div class="container-fluid">
@@ -17,7 +18,7 @@
             <center><img src="images/libro.png" class="icon"/></center>
             <center><h2>Matemáticas</h2></center>
             <ul class="list-group side-menu">
-                                  <li class="list-group-item"><a href="matematicas.html">Agregar Nueva Pregunta</a></li>
+                                  <li class="list-group-item" id="ap"><a href="#">Agregar Nueva Pregunta</a></li>
                                   <li class="list-group-item"><a href="espanol.html">Ver Mis Preguntas</a></li>
                                 <li class="list-group-item"><a href="espanol.html"> Galería de fotos</a></li>
                                     
@@ -26,6 +27,11 @@
         <div class="col-md-8">
             <h1>Preguntas en esta area</h1>
             <hr/>
+            <div id="ask" class="pregunta">
+            <input type="text" class="form-control pr-in" id="tl-pr" placeholder="Titulo de la pregunta">
+            <textarea class="form-control pr-in" id="desc-pr" rows="3"></textarea>
+            <button type="button" id="procesar" class="btn btn-primary pr-in">Enviar</button>
+            </div>
             <div class="pregunta">
             <h3>La raiz de X es ?</h3>
             <div class="row">
@@ -45,6 +51,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

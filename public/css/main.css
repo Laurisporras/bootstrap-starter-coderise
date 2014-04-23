@@ -38,6 +38,7 @@ background-color: #f9f9f9;
 -moz-border-radius: 5px;
 border-radius: 5px;
 color:#f9f9f9;
+margin-bottom:10px;
 }
 .pregunta h3{
     margin-left: 30px;
@@ -45,6 +46,24 @@ color:#f9f9f9;
 
 .side-menu{
     margin-left:15px;
+}
+
+.cr{
+    width: 800px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.pr-in {
+    margin-top: 15px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+    width: 93%;
+}
+
+#ask{
+    display: none;
 }
 
 

@@ -1,3 +1,42 @@
+$(document).ready(function (){
+     console.log("ready")
+     $('#ap').click(function(){
+         $("#ask").slideDown('slow');
+     });
+ 
+ 
+
+
+  // Get Database References
+  var db = new Firebase("https://wisdom.firebaseio.com/");
+  var matematicas = db.child("matematicas");
+
+  $("#procesar").click(function(e){
+      e.preventDefault();
+      var titulo = $("#tl-pr").val();
+      var desc = $("#desc-pr").val();
+      matematicas.push({
+          titulo: titulo,
+          descripcion: desc
+      });
+      alert("Publicado "+titulo)
+      $("#ask").fadeOut();
+  });
+  
+   matematicas.on('child_added', function (snapshot) {
+    // Load Contact from Database
+    var mate = snapshot.val();
+    console.log(mate);
+
+    // Append rendered contact to contact list
+    $("#contacts").append(html);
+  });
+ 
+});
+ 
+ 
+ 
+ 
 $(function () {
     //Codigo Lista Contacto
     $( "#datepicker" ).datepicker();
@@ -48,3 +87,7 @@ $(function () {
   });
 
  });
+ 
+ 
+ 
+ 
